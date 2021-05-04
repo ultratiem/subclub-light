@@ -1,11 +1,11 @@
 {
   "name": "Light Mode",
   "component": false,
-  "license_url": null,
-  "about_url": null,
-  "authors": null,
-  "theme_version": null,
-  "minimum_discourse_version": null,
+  "license_url": "https://subclub.app",
+  "about_url": "https://subclub.app",
+  "authors": "Tiem",
+  "theme_version": "2.0",
+  "minimum_discourse_version": "2.0",
   "maximum_discourse_version": null,
   "assets": {
     "banner": "assets/banner.png"
