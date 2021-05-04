@@ -156,22 +156,6 @@ nav.post-controls button.d-hover {color:$secondary;}
 .lightbox-wrapper, .lightbox-wrapper *, nav.post-controls .double-button button.like.d-hover, .search-menu input[type="text"] {border-radius:0.4em;}
 .user-menu .quick-access-panel li {border-radius:0.4em;margin:0.5em auto;}
 
-@import "common/foundation/variables";
-@font-face {
-  font-family: ProximaNova;
-  src: url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova400.eot');
-  src: url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova400.eot?#iefix') format('embedded-opentype'), url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova400.woff') format('woff'), url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova400.ttf') format('truetype'), url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova400.svg#icon') format('svg');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: ProximaNova;
-  src: url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova700.eot');
-  src: url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova700.eot?#iefix') format('embedded-opentype'), url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova700.woff') format('woff'), url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova700.ttf') format('truetype'), url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova700.svg#icon') format('svg');
-  font-weight: 700;
-  font-style: normal;
-}
-
 .unread-private-messages {background-color:rgba(255,59,48,1);} //yay apple red
 
 .topic-list-item.visited a.title:not(.badge-notification) {color:$primary;}
