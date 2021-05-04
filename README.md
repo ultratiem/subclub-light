@@ -1,2 +1,2 @@
-# subclub
+# subclub.app
 Sub Club Discourse Theme
