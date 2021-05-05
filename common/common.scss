@@ -55,7 +55,7 @@ nav.post-controls .double-button button.like.d-hover .d-icon {color:$secondary;}
 .list-controls .btn .d-button-label {font-size:1em;font-weight:700;}
 
 //handles the category breadcrumbs
-.nav-pills>li>a, .badge-category-bg, .btn, .select-kit .select-kit-header {background-color:$primary;font-weight:700 !important;font-size:0.9em !important;border-radius:0.4em !important;padding:0.5em 1em !important;}
+.nav-pills>li>a, .badge-category-bg, .btn, .select-kit .select-kit-header {font-weight:700 !important;font-size:0.9em !important;border-radius:0.4em !important;padding:0.5em 1em !important;}
 .nav-pills>li a.active {background:$tertiary}; //sets color of category pill
 .nav-pills>li>a:hover {color:$tertiary;background:rgba(48,158,178,0.35)}; //color has to be hardcoded, pulled from tertiary
 .alert {border-radius:0.4em !important; font-size:0.9em !important;padding:10px;}
