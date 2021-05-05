@@ -133,4 +133,5 @@ tbody {border-top: none;}
 .share-and-invite {display:none;} //kills share button
 
 //custom footer block
-.custom-footer {background: $secondary;color: $primary;padding: 2em 0 1em 0;}
+.custom-footer {background:$secondary !important;color:$primary !important;}
+.custom-footer .first-box .heading {color:$primary !important;}
