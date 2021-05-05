@@ -1,26 +1,6 @@
 @import "common/foundation/variables";
-@font-face {
-  font-family: ProximaNova;
-  src: url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova400.eot');
-  src: url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova400.eot?#iefix') format('embedded-opentype'), url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova400.woff') format('woff'), url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova400.ttf') format('truetype'), url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova400.svg#icon') format('svg');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: ProximaNova;
-  src: url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova700.eot');
-  src: url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova700.eot?#iefix') format('embedded-opentype'), url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova700.woff') format('woff'), url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova700.ttf') format('truetype'), url('https://dmmj3mmt94rvw.cloudfront.net/webfonts/ProximaNova700.svg#icon') format('svg');
-  font-weight: 700;
-  font-style: normal;
-}
 
-html {font-size: 62.5%;}
-body {
-  font-family: ProximaNova;
-  font-weight: 400;
-  font-size: 1.5rem;
-  line-height: 1.4;
-}
+body {line-height: 1.4;}
 
 body button {font-family: ProximaNova, sans-serif;}
 
@@ -33,7 +13,7 @@ body button {font-family: ProximaNova, sans-serif;}
 .login-button .svg-icon {color:$secondary !important;}
 .btn-primary {border:1px solid $secondary;}
 
-.unread-private-messages {background-color:rgba(255,59,48,1);} //yay apple red
+.unread-private-messages {background-color:rgba(255,59,48,1);} //apple red
 
 .topic-list-item.visited a.title:not(.badge-notification) {color:$primary;}
 .select-kit.combo-box .select-kit-header {border:1px solid rgba(48,158,178,0.4);}
