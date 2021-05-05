@@ -22,7 +22,7 @@ div.menu-links-header .fa {color:$primary;}
 .discourse-no-touch .btn-flat:hover .d-icon, .btn-flat .d-icon {color:$secondary;font-weight:700;}
 .discourse-no-touch .btn:hover .d-icon {color:$secondary;}
 
-nav.post-controls .actions .double-button button.button-count+.toggle-like {padding:auto} //hack to get horizontal center
+nav.post-controls .actions .double-button button.button-count+.toggle-like {padding:0;} //hack to get horizontal center
 nav.post-controls .actions button {border:0.5px solid rgba(0,0,0,0.15);font-size:0.8em;} //adjusts reply button and their bretheren
 nav.post-controls button {border-radius:0.4em;background:rgba(0,0,0,0.1);min-width:40px;}
 nav.post-controls button.d-hover {color:$secondary;}
