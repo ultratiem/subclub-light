@@ -36,7 +36,7 @@ nav.post-controls .double-button button.button-count:not(.my-likes) {padding-rig
 
 .topic-list-bottom {font-size:0.85em;}
 .topic-list button.bulk-select {padding:5px;background:rgba(0,0,0,0.15);border-radius:0.4em;}
-nav.post-controls .double-button button.like.d-hover {background:$love;color:$secondary !important;}
+nav.post-controls .double-button button.like.d-hover .d-icon {background:$love;color:$secondary !important;}
 .topic-list th, nav.post-controls button {font-size:0.85em;font-weight:700;color:$primary;}
 .topic-list .topic-list-item-separator td {border-bottom:1px solid rgba(0,0,0,0.05);}
 .topic-list .topic-list-item-separator td span {color:rgba(0,0,0,0.15);font-weight:700;}
