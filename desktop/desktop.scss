@@ -22,7 +22,7 @@ div.menu-links-header .fa {color:$primary;}
 .discourse-no-touch .btn-flat:hover .d-icon, .btn-flat .d-icon {color:$secondary;font-weight:700;}
 .discourse-no-touch .btn:hover .d-icon {color:$secondary;}
 
-nav.post-controls .actions button {border:0.5px solid rgba(0,0,0,0.15);font-size:0.8em;} //adjusts reply button and their bretheren
+nav.post-controls .actions button {border:0.5px solid rgba(0,0,0,0.15);font-size:0.8em;padding:auto;} //adjusts reply button and their bretheren
 nav.post-controls button {border-radius:0.4em;background:rgba(0,0,0,0.1);min-width:40px;}
 nav.post-controls button.d-hover {color:$secondary;}
 nav.post-controls .double-button button.button-count:not(.my-likes) {padding-right:10px;margin-right:5px;}
