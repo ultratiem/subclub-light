@@ -12,7 +12,7 @@
 .unread-private-messages {background-color:rgba(255,59,48,1);} //apple red
 
 .topic-list-item.visited a.title:not(.badge-notification) {color:$primary;}
-.select-kit.combo-box .select-kit-header {border:1px solid rgba(48,158,178,0.4);}
+.select-kit.combo-box .select-kit-header {border:1px solid rgba(48,158,178,0.4);max-height:28px;}
 
 .extra-info-wrapper .header-title {max-width:80%;}
 
