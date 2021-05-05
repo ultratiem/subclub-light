@@ -27,13 +27,12 @@ nav.post-controls .actions button {border:0.5px solid rgba(0,0,0,0.15);font-size
 
 nav.post-controls .actions .double-button button.like.d-hover {background:$love;color:$primary;}
 nav.post-controls button {border-radius:0.4em;background:rgba(0,0,0,0.1);min-width:40px;}
-nav.post-controls button.d-hover {color:$secondary;}
-nav.post-controls .double-button button.button-count:not(.my-likes) {padding-right:10px;margin-right:5px;}
+nav.post-controls button.d-hover, nav.post-controls button:hover {color:$secondary;}
 nav.post-controls button .d-icon {color:$primary}
-nav.post-controls button:hover {color:$secondary !important;}
-.discourse-no-touch .sortable:hover {border-radius:0.4em;background:rgba(48,158,178,0.2);color:$tertiary;font-weight:700;font-size:0.85em;}
 .discourse-no-touch .btn:hover {background:$tertiary;}
-.btn-primary .d-icon {color:white !important;}
+.btn-primary .d-icon {color:$secondary !important;}
+nav.post-controls .double-button button.button-count:not(.my-likes) {padding-right:10px;margin-right:5px;}
+.discourse-no-touch .sortable:hover {border-radius:0.4em;background:rgba(48,158,178,0.2);color:$tertiary;font-weight:700;font-size:0.85em;}
 
 .topic-list-bottom {font-size:0.85em;}
 .topic-list button.bulk-select {padding:5px;background:rgba(0,0,0,0.15);border-radius:0.4em;}
