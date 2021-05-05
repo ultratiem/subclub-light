@@ -1,8 +1,6 @@
 @import "common/foundation/variables";
 
-body {font-size: 1.4rem;}
-
-.anon {background-color:#000;color:#efefef;} //block for login page
+.anon {background-color:#000;color:#efefef;} //container for login page
 
 .login-required {width:480px;margin:0 auto;}
 .login-required h2 {font-size:2.75em;padding:20px 0 0;color:$primary;line-height:1em;}
@@ -69,12 +67,8 @@ div.menu-links-header a {color:$primary;}
 .category-list .category .category-name + div{width: 10%;}
 .category-list .category-name {font-size:1.2em;color:$primary;}
 
-.category-list .category-logo.aspect-image {
-    max-width: 50px;
-}
-.category-heading .category-logo.aspect-image {
-    display:none;
-}
+.category-list .category-logo.aspect-image {max-width: 50px;}
+.category-heading .category-logo.aspect-image {display:none;}
 
 aside.onebox {border:none;border-radius:0.4em;background:rgba(48,158,178,0.1);}
 aside.onebox header a[href] {color:$primary;font-weight:700;}
