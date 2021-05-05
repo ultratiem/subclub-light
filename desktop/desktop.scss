@@ -27,7 +27,7 @@ nav.post-controls .actions button {border:0.5px solid rgba(0,0,0,0.15);font-size
 
 nav.post-controls .actions .double-button button.like.d-hover {background:$love;color:$primary;}
 nav.post-controls button {border-radius:0.4em;background:rgba(0,0,0,0.1);min-width:40px;}
-nav.post-controls button.d-hover, nav.post-controls button:hover {color:$secondary;}
+nav.post-controls button.d-hover, nav.post-controls button:hover {color:$secondary !important;}
 nav.post-controls button .d-icon {color:$primary}
 .discourse-no-touch .btn:hover {background:$tertiary;}
 .btn-primary .d-icon {color:$secondary !important;}
@@ -39,8 +39,6 @@ nav.post-controls .double-button button.button-count:not(.my-likes) {padding-rig
 // all this for a drop of love
 nav.post-controls .double-button button.like.d-hover .d-icon {color:$secondary !important;}
 nav.post-controls .double-button button.like.d-hover {background:$love;}
-
-nav.post-controls .actions button.create .d-icon {color:$secondary !important;}
 
 .topic-list th, nav.post-controls button {font-size:0.85em;font-weight:700;color:$primary;}
 .topic-list .topic-list-item-separator td {border-bottom:1px solid rgba(0,0,0,0.05);}
