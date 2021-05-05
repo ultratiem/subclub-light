@@ -136,12 +136,12 @@ tbody {border-top: none;}
 .custom-footer {
   display: flex;
   flex-wrap: wrap;
-  background: var(--primary);
+  background: $secondary;
   .flexbox {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    color: var(--secondary);
+    color: $primary;
     padding: 2em 0 1em 0;
   }
   .first-box {
@@ -151,9 +151,6 @@ tbody {border-top: none;}
       font-weight: bold;
       margin-bottom: 0.5em;
       display: block;
-    }
-    .blurb {
-      color: var(--secondary-high);
     }
   }
   .second-box {
