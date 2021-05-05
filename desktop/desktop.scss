@@ -109,7 +109,7 @@ tbody {border-top: none;}
 .banner-box {margin-left:calc(-51vw + 50%) !important;}
 .alert.alert-info {margin:8px;background:rgba(0,0,0,0.05);}
 
-.latest-topic-list-item {border:0.5px solid rgba(0,0,0,0.2) !important;border-radius:12px;box-shadow:7px 7px 15px rgba(0,0,0,0.08);margin-bottom:20px;}
+.latest-topic-list-item {border:0.5px solid rgba(0,0,0,0.2) !important;border-radius:12px;box-shadow:7px 7px 15px rgba(0,0,0,0.08);margin-bottom:15px;}
 .latest-topic-list-item.visited a.title:not(.badge-notification) {color:$primary;}
 .latest-topic-list-item .main-link a.title {font-size:0.85em;}
 .latest-topic-list-item .topic-last-activity a, .badge-posts[href] {color:$primary;font-weight:700;}
