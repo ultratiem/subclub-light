@@ -79,7 +79,8 @@ div.menu-links-header a {color:$primary;}
 
 aside.onebox {border:none;border-radius:0.4em;background:rgba(48,158,178,0.1);}
 aside.onebox header a[href] {color:$primary;font-weight:700;}
-blockquote {border-left:5px solid $love;background:rgba(158,89,198,0.1);border-radius:0.5em;font-style:italic;}
+
+blockquote {border-left:5px solid $tertiary;border-radius:0.5em;font-style:italic;}
 .category-heading p {font-weight:700;}
 
 .category-list .topics .value {color:$primary;}
