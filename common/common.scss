@@ -22,20 +22,24 @@ div.menu-links-header .fa {color:$primary;}
 .discourse-no-touch .btn-flat:hover .d-icon, .btn-flat .d-icon {color:$secondary;font-weight:700;}
 .discourse-no-touch .btn:hover .d-icon {color:$secondary;}
 
-nav.post-controls .actions button {border:0.5px solid rgba(0,0,0,0.15);} //adjusts reply button and their bretheren
+nav.post-controls .actions .double-button button.button-count+.toggle-like {padding:0;} //hack to get horizontal center
+nav.post-controls .actions button {border:0.5px solid rgba(0,0,0,0.15);font-size:0.8em;} //adjusts reply button and their bretheren
+
+nav.post-controls .actions .double-button button.like.d-hover {background:$love;color:$primary;}
 nav.post-controls button {border-radius:0.4em;background:rgba(0,0,0,0.1);min-width:40px;}
-nav.post-controls button.d-hover {color:$secondary;}
-nav.post-controls .double-button button.button-count:not(.my-likes) {padding-right:10px;margin-right:5px;}
+nav.post-controls button.d-hover, nav.post-controls button:hover {color:$secondary !important;}
 nav.post-controls button .d-icon {color:$primary}
-nav.post-controls button:hover {color:$secondary !important;}
-.discourse-no-touch .sortable:hover {border-radius:0.4em;background:rgba(48,158,178,0.2);color:$tertiary;font-weight:700;font-size:0.85em;}
 .discourse-no-touch .btn:hover {background:$tertiary;}
-.btn-primary .d-icon {color:white !important;}
+.btn-primary .d-icon {color:$secondary !important;}
+nav.post-controls .double-button button.button-count:not(.my-likes) {padding-right:10px;margin-right:5px;}
+.discourse-no-touch .sortable:hover {border-radius:0.4em;background:rgba(48,158,178,0.2);color:$tertiary;font-weight:700;font-size:0.85em;}
 
 .topic-list-bottom {font-size:0.85em;}
 .topic-list button.bulk-select {padding:5px;background:rgba(0,0,0,0.15);border-radius:0.4em;}
+// all this for a drop of love
+nav.post-controls .double-button button.like.d-hover .d-icon {color:$secondary !important;}
 nav.post-controls .double-button button.like.d-hover {background:$love;}
-nav.post-controls .double-button button.like.d-hover .d-icon {color:$secondary;}
+
 .topic-list th, nav.post-controls button {font-size:0.85em;font-weight:700;color:$primary;}
 .topic-list .topic-list-item-separator td {border-bottom:1px solid rgba(0,0,0,0.05);}
 .topic-list .topic-list-item-separator td span {color:rgba(0,0,0,0.15);font-weight:700;}
@@ -68,12 +72,15 @@ nav.post-controls .double-button button.like.d-hover .d-icon {color:$secondary;}
 div.menu-links-header a {color:$primary;}
 .user-menu .quick-access-panel li:not(.show-all) .d-icon {color:$tertiary;}
 
+// the categories block on the homepage
 .categories-list .category .category-description {font-weight:400;}
+.category-logo.aspect-image {margin:0.33em 1em 1em 0;}
 .category-heading .category-logo.aspect-image {display:none;}
 
 aside.onebox {border:none;border-radius:0.4em;background:rgba(48,158,178,0.1);}
 aside.onebox header a[href] {color:$primary;font-weight:700;}
-blockquote {border-left:5px solid $love;background:rgba(158,89,198,0.1);border-radius:0.5em;font-style:italic;}
+
+blockquote {border-left:5px solid $tertiary;border-radius:0.5em;font-style:italic;}
 .category-heading p {font-weight:700;}
 
 .category-list .topics .value {color:$primary;}
@@ -106,7 +113,8 @@ tbody {border-top: none;}
 .banner-box {margin-left:calc(-51vw + 50%) !important;}
 .alert.alert-info {margin:8px;background:rgba(0,0,0,0.05);}
 
-.latest-topic-list-item {border:0.5px solid rgba(0,0,0,0.2) !important;border-radius:12px;box-shadow:7px 7px 15px rgba(0,0,0,0.08);margin-bottom:30px;}
+// divs inside the latest posts block on the homepage
+.latest-topic-list-item {border:0.5px solid rgba(0,0,0,0.2) !important;border-radius:12px;box-shadow:5px 5px 10px rgba(0,0,0,0.075);margin-bottom:1em;}
 .latest-topic-list-item.visited a.title:not(.badge-notification) {color:$primary;}
 .latest-topic-list-item .main-link a.title {font-size:0.85em;}
 .latest-topic-list-item .topic-last-activity a, .badge-posts[href] {color:$primary;font-weight:700;}
@@ -127,4 +135,13 @@ tbody {border-top: none;}
 .lightbox-wrapper, .lightbox-wrapper *, nav.post-controls .double-button button.like.d-hover, .search-menu input[type="text"] {border-radius:0.4em;}
 .user-menu .quick-access-panel li {border-radius:0.4em;margin:0.5em auto;}
 
+// timeline handle found on post pages
+.timeline-container .topic-timeline .timeline-handle {background:$tertiary}
+
 .share-and-invite {display:none;} //kills share button
+
+//custom footer block for easy footer plugin
+.custom-footer {background:$secondary !important;border-top:0.5px solid rgba(0,0,0,0.2);color:$primary !important;}
+.custom-footer .flexbox {color:$primary !important;}
+.custom-footer .third-box {border-top:0 !important;}
+.custom-footer .third-box .social .social-link .d-icon {color:$tertiary !important;}
