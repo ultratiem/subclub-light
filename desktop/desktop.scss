@@ -134,6 +134,9 @@ tbody {border-top: none;}
 .lightbox-wrapper, .lightbox-wrapper *, nav.post-controls .double-button button.like.d-hover, .search-menu input[type="text"] {border-radius:0.4em;}
 .user-menu .quick-access-panel li {border-radius:0.4em;margin:0.5em auto;}
 
+// timeline handle found on post pages
+.timeline-container .topic-timeline .timeline-handle {background:$tertiary}
+
 .share-and-invite {display:none;} //kills share button
 
 //custom footer block for easy footer plugin
