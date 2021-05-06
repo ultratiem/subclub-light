@@ -72,7 +72,9 @@ nav.post-controls .double-button button.like.d-hover {background:$love;}
 div.menu-links-header a {color:$primary;}
 .user-menu .quick-access-panel li:not(.show-all) .d-icon {color:$tertiary;}
 
+// the categories block on the homepage
 .categories-list .category .category-description {font-weight:400;}
+.category-logo.aspect-image {margin:0.33em 1em 1em 0;}
 .category-heading .category-logo.aspect-image {display:none;}
 
 aside.onebox {border:none;border-radius:0.4em;background:rgba(48,158,178,0.1);}
@@ -110,7 +112,7 @@ tbody {border-top: none;}
 .banner-box {margin-left:calc(-51vw + 50%) !important;}
 .alert.alert-info {margin:8px;background:rgba(0,0,0,0.05);}
 
-.latest-topic-list-item {border:0.5px solid rgba(0,0,0,0.2) !important;border-radius:12px;box-shadow:5px 5px 10px rgba(0,0,0,0.075);margin-bottom:15px;}
+.latest-topic-list-item {border:0.5px solid rgba(0,0,0,0.2) !important;border-radius:12px;box-shadow:5px 5px 10px rgba(0,0,0,0.075);margin-bottom:0.5em;}
 .latest-topic-list-item.visited a.title:not(.badge-notification) {color:$primary;}
 .latest-topic-list-item .main-link a.title {font-size:0.85em;}
 .latest-topic-list-item .topic-last-activity a, .badge-posts[href] {color:$primary;font-weight:700;}
