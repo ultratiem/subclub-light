@@ -148,7 +148,7 @@ tbody {border-top: none;}
 
 // reduce tag font size
 .badge-wrapper {font-size:var(--font-down-2);}
-.category-list .category-name {font-size:var(--font-down-1);}
+.category-list .category-name {color:$primary;font-size:var(--font-down-1);}
 
 .category-list .topics {display:none;}
 .categories-and-latest div.column.categories {max-width:40%}
