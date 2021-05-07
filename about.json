@@ -1,8 +1,8 @@
 {
   "name": "Light",
   "component": false,
-  "license_url": "https://subclub.app",
-  "about_url": "https://subclub.app",
+  "license_url": "https://subclub.app/tos",
+  "about_url": "https://subclub.app/about",
   "authors": "Tiem",
   "theme_version": "2.0b3",
   "minimum_discourse_version": null,
