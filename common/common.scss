@@ -1,5 +1,7 @@
 @import "common/foundation/variables";
 
+.container, list-container {margin: auto 1.5em;}
+
 .anon {background-color:$primary;color:$tertiary;} //container for login page
 .body-page-button-container {display:block !important;} //login button for main viewport
 .login-required {margin:0 auto;}
