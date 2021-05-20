@@ -14,7 +14,7 @@
 // quote block author
 aside.quote .title {background:$primary-low !important;border-left:0 !important;border-radius:0.5em;margin-bottom:0.5em;padding:12px !important;}
 // blockquotes
-blockquote {border-left:5px solid $primary-low;}
+blockquote {background:$tertiary-low !important;border-left:5px solid $primary-low;}
 
 .topic-list-item.visited a.title:not(.badge-notification) {color:$primary;}
 .select-kit.combo-box .select-kit-header {border:1px solid rgba(48,158,178,0.4);max-height:28px;}
