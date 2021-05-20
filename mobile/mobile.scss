@@ -1,5 +1,7 @@
 @import "common/foundation/variables";
 
+.container, list-container {margin: auto 1.5em;} // add a margin to appease tablets and smaller screen sizes
+
 .anon {background-color:$primary;color:$tertiary;} //container for login page
 .body-page-button-container {display:block !important;} //login button for main viewport
 .login-required {margin:0 auto;}
@@ -12,11 +14,9 @@
 .unread-private-messages {background-color:rgba(255,59,48,1);} //apple red
 
 // quote block author
-aside.quote .title {border-left:0 !important;border-radius:0.5em;margin-bottom:0.5em;padding:12px !important;}
-// collpasing arrow color
-.discourse-no-touch .btn-flat:hover .d-icon, .btn-flat .d-icon {color:$primary !important;}
+aside.quote .title {background:$primary-low !important;border-left:0 !important;border-radius:0.5em;margin-bottom:0.5em;padding:12px !important;}
 // blockquotes
-blockquote {border-left:5px solid $primary-low;}
+blockquote {background:$tertiary-low !important;border-left:5px solid $primary-low;}
 
 .topic-list-item.visited a.title:not(.badge-notification) {color:$primary;}
 .select-kit.combo-box .select-kit-header {border:1px solid rgba(48,158,178,0.4);max-height:28px;}
