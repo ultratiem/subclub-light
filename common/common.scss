@@ -18,7 +18,7 @@ aside.quote .title {background:$primary-low !important;border-left:0 !important;
 // blockquotes
 blockquote {background:$tertiary-low !important;border-left:5px solid $primary-low;}
 .embedded-posts {border-radius:.5em;border:1px solid $primary-low !important;}
-.topic-body {border-top:0 !important;}
+//.topic-body {border-top:0 !important;}
 
 .topic-list-item.visited a.title:not(.badge-notification) {color:$primary;}
 .select-kit.combo-box .select-kit-header {border:1px solid rgba(48,158,178,0.4);max-height:28px;}
