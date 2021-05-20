@@ -11,6 +11,13 @@
 
 .unread-private-messages {background-color:rgba(255,59,48,1);} //apple red
 
+// quote block author
+aside.quote .title {border-left:0 !important;border-radius:0.5em;margin-bottom:0.5em;padding:12px !important;}
+// collpasing arrow color
+.discourse-no-touch .btn-flat:hover .d-icon, .btn-flat .d-icon {color:$primary !important;}
+// blockquotes
+blockquote {border-left:5px solid $primary-low;}
+
 .topic-list-item.visited a.title:not(.badge-notification) {color:$primary;}
 .select-kit.combo-box .select-kit-header {border:1px solid rgba(48,158,178,0.4);max-height:28px;}
 
