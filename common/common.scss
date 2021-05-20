@@ -1,15 +1,22 @@
 @import "common/foundation/variables";
 
-.anon {background-color:#000;color:#efefef;} //container for login page
+.anon {background-color:$primary;color:$tertiary;} //container for login page
+.body-page-button-container {display:block !important;} //login button for main viewport
+.login-required {margin:0 auto;}
+.login-required h2 {color:$primary;font-size:3em;padding:10px 0 500px;text-transform:uppercase;}
 
-.login-required {width:480px;margin:0 auto;}
-.login-required h2 {font-size:2.75em;padding:20px 0 0;color:$primary;line-height:1em;}
-.login-required img {margin:50px 0;}
 .sign-up-button, .login-button {color:$secondary;}
 .login-button .svg-icon {color:$secondary !important;}
 .btn-primary {border:1px solid $secondary;}
 
 .unread-private-messages {background-color:rgba(255,59,48,1);} //apple red
+
+// quote block author
+aside.quote .title {border-left:0 !important;border-radius:0.5em;margin-bottom:0.5em;padding:12px !important;}
+// collpasing arrow color
+.discourse-no-touch .btn-flat:hover .d-icon, .btn-flat .d-icon {color:$primary !important;}
+// blockquotes
+blockquote {border-left:5px solid $primary-low;}
 
 .topic-list-item.visited a.title:not(.badge-notification) {color:$primary;}
 .select-kit.combo-box .select-kit-header {border:1px solid rgba(48,158,178,0.4);max-height:28px;}
