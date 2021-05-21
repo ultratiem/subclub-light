@@ -21,9 +21,15 @@
 .d-header-icons .d-icon {color:$secondary;}
 .d-header-icons .icon {border:0 !important;border-radius:0.5em;}
 .d-header-icons .icon:hover .d-icon {border-radius:0.5em;}
-.d-header-icons .icon:hover {color:$tertiary !important;background:$secondary !important;}
+.d-header-icons .icon:hover {background:$secondary !important;}
 .d-header-icons .header-dropdown-toggle {margin-right:15px;}
 .d-header-icons .unread-notifications {background-color:rgba(255,59,48,1);}
+
+// button text and iconography
+.discourse-no-touch .btn-flat:hover .d-icon, .btn-flat .d-icon {color:$secondary;font-weight:700;}
+.discourse-no-touch .btn:hover .d-icon {color:$secondary;}
+// menu text and iconography
+.discourse-no-touch .d-header-icons .icon:hover .d-icon {color:$tertiary !important;}
 
 // quote block author
 aside.quote .title {background:$primary-low !important;border-left:0 !important;border-radius:0.5em;margin-bottom:0.5em;padding:12px !important;}
@@ -39,9 +45,6 @@ blockquote {background:$tertiary-low !important;border-left:5px solid $primary-l
 
 div.menu-links-header .menu-links-row li a.active {border-radius:0.4em 0.4em 0 0;}
 div.menu-links-header .fa {color:$primary;}
-
-.discourse-no-touch .btn-flat:hover .d-icon, .btn-flat .d-icon {color:$secondary;font-weight:700;}
-.discourse-no-touch .btn:hover .d-icon {color:$secondary;}
 
 nav.post-controls .actions .double-button button.button-count+.toggle-like {padding:0;} //hack to get horizontal center
 nav.post-controls .actions button {border:0.5px solid rgba(0,0,0,0.15);font-size:0.8em;} //adjusts reply button and their bretheren
