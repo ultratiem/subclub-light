@@ -68,7 +68,7 @@ blockquote {background:$tertiary-low !important;border-left:5px solid $primary-l
 // avatar block beside posts
 .topic-avatar {border-top:0 !important;padding-right:0.5em;}
 // titles on posts
-.cooked h3 {$font-up-2 !important}
+.cooked h3 {font-size:$font-up-2 !important;}
 // permalink block
 .post-links-container .post-links {border:1px solid $primary-low !important;border-radius:0.5em;margin:10px 10px 10px 0 !important;padding:1em 1em 0 1em !important;}
 .post-links-container ul {margin:0 !important;}
