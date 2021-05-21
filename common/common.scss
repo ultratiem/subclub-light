@@ -58,8 +58,8 @@ nav.post-controls .double-button button.like.d-hover {background:$love;}
 
 .d-header {box-shadow:none;border-bottom:none;height:6em;}
 .d-header-icons .d-icon {color:$secondary;}
-.d-header-icons .icon {border:0 !important;border-radius:0.4em;}
-.d-header-icons .icon:hover .d-icon {color:$tertiary;}
+.d-header-icons .icon {border:0 !important;border-radius:0.5em;}
+.d-header-icons .icon:hover .d-icon {color:$tertiary;border-radius:0.5em;}
 .d-header-icons .icon:hover {color:$primary;background:$secondary;}
 .d-header-icons .header-dropdown-toggle {margin-right:15px;}
 .d-header-icons .unread-notifications {background-color:rgba(255,59,48,1);}
