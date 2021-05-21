@@ -47,6 +47,8 @@ blockquote {background:$tertiary-low !important;border-left:5px solid $primary-l
 .post-links-container ul {margin:0 !important;}
 // block at the end of a page with posts
 .topic-status-info, .topic-timer-info {border:0 !important;}
+// post menu has 2 states, collapsed and uncollapsed
+.post-menu-area {margin:10px !important;}
 
 .topic-list-item.visited a.title:not(.badge-notification) {color:$primary;}
 .select-kit.combo-box .select-kit-header {border:1px solid rgba(48,158,178,0.4);max-height:28px;}
