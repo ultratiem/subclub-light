@@ -55,7 +55,7 @@ blockquote {background:$tertiary-low !important;border-left:5px solid $primary-l
 
 .extra-info-wrapper .header-title {max-width:80%;}
 
-div.menu-links-header .menu-links-row li a.active {border-radius:0.4em 0.4em 0 0;}
+div.menu-links-header .menu-links-row li a.active {border-radius:0.5em 0.5em 0 0;}
 div.menu-links-header .fa {color:$primary;}
 
 nav.post-controls .actions .double-button button.button-count+.toggle-like {padding:0;} //hack to get horizontal center
@@ -68,10 +68,10 @@ nav.post-controls button .d-icon {color:$primary}
 .discourse-no-touch .btn:hover {background:$tertiary;}
 .btn-primary .d-icon {color:$secondary !important;}
 nav.post-controls .double-button button.button-count:not(.my-likes) {padding-right:10px;margin-right:5px;}
-.discourse-no-touch .sortable:hover {border-radius:0.4em;background:rgba(48,158,178,0.2);color:$tertiary;font-weight:700;font-size:0.85em;}
+.discourse-no-touch .sortable:hover {border-radius:0.5em;background:rgba(48,158,178,0.2);color:$tertiary;font-weight:700;font-size:0.85em;}
 
 .topic-list-bottom {font-size:0.85em;}
-.topic-list button.bulk-select {padding:5px;background:rgba(0,0,0,0.15);border-radius:0.4em;}
+.topic-list button.bulk-select {padding:5px;background:rgba(0,0,0,0.15);border-radius:0.5em;}
 // all this for a drop of love
 nav.post-controls .double-button button.like.d-hover .d-icon {color:$secondary !important;}
 nav.post-controls .double-button button.like.d-hover {background:$love;}
@@ -89,15 +89,15 @@ nav.post-controls .double-button button.like.d-hover {background:$love;}
 .list-controls .btn .d-button-label {font-size:1em;font-weight:700;}
 
 //handles the category breadcrumbs
-.nav-pills>li>a, .badge-category-bg, .btn, .select-kit .select-kit-header {font-weight:700 !important;font-size:0.9em !important;border-radius:0.4em !important;padding:0.5em 1em !important;}
+.nav-pills>li>a, .badge-category-bg, .btn, .select-kit .select-kit-header {font-weight:700 !important;font-size:0.9em !important;border-radius:0.5em !important;padding:0.5em 1em !important;}
 .nav-pills>li a.active {background:$tertiary}; //sets color of category pill
 .nav-pills>li>a:hover {color:$tertiary;background:rgba(48,158,178,0.35)}; //color has to be hardcoded, pulled from tertiary
-.alert {border-radius:0.4em !important; font-size:0.9em !important;padding:10px;}
+.alert {border-radius:0.5em !important; font-size:0.9em !important;padding:10px;}
 
 .nav-interface {display:none;}
 // drop down menu
-.menu-panel {background:$secondary;border:0;border-radius:0.5em;box-shadow: 0 10px 30px rgba(0,0,0,0.3);font-size:0.9em;}
-.menu-panel li a.widget-link:hover {border-radius:0.4em;}
+.menu-panel {background:$secondary;border:0;border-radius:0.5em;box-shadow:0 10px 30px rgba(0,0,0,0.3);font-size:0.9em;}
+.menu-panel li a.widget-link:hover {border-radius:0.5em;}
 .menu-panel hr {border-top:0;height:5px;}
 div.menu-links-header a {color:$primary;}
 .user-menu .quick-access-panel li:not(.show-all) .d-icon {color:$tertiary;}
@@ -107,7 +107,7 @@ div.menu-links-header a {color:$primary;}
 .category-logo.aspect-image {margin:0.33em 1em 1em 0;}
 .category-heading .category-logo.aspect-image {display:none;}
 
-aside.onebox {border:none;border-radius:0.4em;background:rgba(48,158,178,0.1);}
+aside.onebox {border:none;border-radius:0.5em;background:rgba(48,158,178,0.1);}
 aside.onebox header a[href] {color:$primary;font-weight:700;}
 
 blockquote {border-left:5px solid $tertiary;border-radius:0.5em;font-style:italic;}
@@ -145,7 +145,7 @@ tbody {border-top: none;}
 .alert.alert-info {margin:8px;background:rgba(0,0,0,0.05);}
 
 // divs inside the latest posts block on the homepage
-.latest-topic-list-item {border:0.5px solid rgba(0,0,0,0.2) !important;border-radius:12px;box-shadow:5px 5px 10px rgba(0,0,0,0.075);margin-bottom:1em;}
+.latest-topic-list-item {border:0.5px solid $primary-very-low !important;border-radius:0.8em;box-shadow:5px 5px 10px rgba(0,0,0,0.075);margin-bottom:1em;}
 .latest-topic-list-item.visited a.title:not(.badge-notification) {color:$primary;}
 .latest-topic-list-item .main-link a.title {font-size:0.85em;}
 .latest-topic-list-item .topic-last-activity a, .badge-posts[href] {color:$primary;font-weight:700;}
@@ -158,13 +158,13 @@ tbody {border-top: none;}
 .post-notice.old, .post-notice {background-color:rgba(0,0,0,0.05);border-radius:0.4em;border:0;justify-content:center;margin-bottom:25px;}
 
 .user-menu .quick-access-panel .d-icon {color:$tertiary;}
-.drop-down-mode .d-header-icons .active .icon {border-radius:0.4em 0.4em 0 0;}
+.drop-down-mode .d-header-icons .active .icon {border-radius:0.5em 0.5em 0 0;}
 .footer-block {width:100%;display:none;}
 .footer-text {font-size:0.8em;color:$tertiary;text-align:center;}
 .select-kit .select-kit-header {padding:0 1em !important;}
 .title-wrapper .topic-statuses .d-icon {color:$primary;}
 .lightbox-wrapper, .lightbox-wrapper *, nav.post-controls .double-button button.like.d-hover, .search-menu input[type="text"] {border-radius:0.4em;}
-.user-menu .quick-access-panel li {border-radius:0.4em;margin:0.5em auto;}
+.user-menu .quick-access-panel li {border-radius:0.5em;margin:0.5em auto;}
 
 // timeline handle found on post pages
 .timeline-container .topic-timeline .timeline-handle {background:$tertiary}
