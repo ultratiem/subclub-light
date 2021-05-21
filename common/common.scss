@@ -1,5 +1,8 @@
 @import "common/foundation/variables";
 
+input {border:hidden;}
+.no-outline:focus {outline:none;}
+
 //easy footer component
 .custom-footer .list {text-align:right;}
 
