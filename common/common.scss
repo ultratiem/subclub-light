@@ -43,7 +43,7 @@ blockquote {background:$tertiary-low !important;border-left:5px solid $primary-l
 // avatar block beside posts
 .topic-avatar {border-top:0 !important;padding-right:0.5em;}
 // permalink block
-.post-links-container .post-links {border:1px solid $primary-low !important;border-radius:0.5em;padding:1em 1em 0 1em !important;}
+.post-links-container .post-links {border:1px solid $primary-low !important;border-radius:0.5em;margin:10px;padding:1em 1em 0 1em !important;}
 // block at the end of a page with posts
 .topic-status-info, .topic-timer-info {border:0 !important;}
 
@@ -124,12 +124,12 @@ tr, .table-heading {border-bottom:none;}
 
 tbody {border-top: none;}
 // navigation block on the first post
-.topic-map {background:none;border:1px solid $primary-low;border-radius:0.5em;}
 .topic-map section {border-top:none;}
+.topic-map {background:none;border:1px solid $primary-low;border-radius:0.5em;margin:10px !important;}
+.topic-map .map button .d-icon {color:$primary;}
 .topic-map .map button:hover .d-icon, .topic-map .buttons .btn:hover {color:$secondary;}
 .topic-map .buttons .btn {background:rgba(0,0,0,0.15);border-left:none;}
 .deleted .topic-body {background:rgba(241,84,91,0.1);}
-.topic-map .map button .d-icon {color:$primary;}
 .login-required h2, .body-page {text-align:center;}
 .body-page {margin:auto;}
 .d-header #site-text-logo {font-size:0.9em;color:$tertiary;}
