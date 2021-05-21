@@ -200,7 +200,7 @@ tbody {border-top: none;}
 .share-and-invite {display:none;} // kills share button
 
 // custom footer block for easy footer plugin
-.custom-footer {background:$primary !important;border-top:0 !important;color:$primary !important;}
+.custom-footer {background:$header-background !important;border-top:0 !important;color:$primary !important;}
 .custom-footer .flexbox {color:$secondary !important;}
 .custom-footer .third-box {border-top:0 !important;}
 .custom-footer .third-box .social .social-link .d-icon {color:$tertiary !important;}
