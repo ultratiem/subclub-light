@@ -131,7 +131,7 @@ tbody {border-top: none;}
 .topic-map {background:none;border:1px solid $primary-low;border-radius:0.5em;margin:10px !important;}
 .topic-map .map button .d-icon {color:$primary;}
 .topic-map .map button:hover .d-icon, .topic-map .buttons .btn:hover {color:$secondary;}
-.topic-map .buttons .btn {background:rgba(0,0,0,0.15);border-left:none;}
+.topic-map .buttons .btn {background:$primary-very-low;border-left:none;}
 .deleted .topic-body {background:rgba(241,84,91,0.1);}
 .login-required h2, .body-page {text-align:center;}
 .body-page {margin:auto;}
