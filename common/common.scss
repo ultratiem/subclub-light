@@ -3,7 +3,7 @@
 input {background:$primary-low !important;border:hidden !important;border-radius:0.5em;}
 input:focus {outline:none !important;}
 .select-kit .select-kit-filter .filter-input {border-radius:0.5em;padding:0.5em;} // search field in dropdown menu of categories button
-.select-kit.is-expanded .select-kit-body {border-radius:0.5em;} // dropdown list box
+.select-kit.is-expanded .select-kit-body {border-radius:0.5em;box-shadow:0 5px 10px rgba(0,0,0,0.2);} // dropdown list box
 .select-kit.single-select .select-kit-filter.is-expanded {border:0 !important;} // the search box
 
 //easy footer component
