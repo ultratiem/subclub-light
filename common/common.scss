@@ -1,6 +1,6 @@
 @import "common/foundation/variables";
 
-input {border:hidden !important;}
+input {background:$primary-low !important;border:hidden !important;border-radius:0.5em;}
 input:focus {outline:none !important;}
 
 //easy footer component
