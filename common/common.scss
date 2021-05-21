@@ -14,7 +14,8 @@
 .login-button .svg-icon {color:$secondary !important;}
 .btn-primary {border:1px solid $secondary;}
 
-.unread-private-messages {background-color:rgba(255,59,48,1);} //apple red
+.unread-private-messages {background-color:$love;} //apple red
+.d-header-icons .unread-notifications {background-color:$love;}
 
 //menu icons, etc.
 .d-header {box-shadow:none;border-bottom:none;height:6em;}
@@ -22,8 +23,8 @@
 .d-header-icons .icon {border:0 !important;border-radius:0.5em;}
 .d-header-icons .icon:hover .d-icon {border-radius:0.5em;}
 .d-header-icons .icon:hover {background:$secondary !important;}
+
 .d-header-icons .header-dropdown-toggle {margin-right:15px;}
-.d-header-icons .unread-notifications {background-color:rgba(255,59,48,1);}
 
 // button text and iconography
 .discourse-no-touch .btn-flat:hover .d-icon, .btn-flat .d-icon {color:$secondary;font-weight:700;}
