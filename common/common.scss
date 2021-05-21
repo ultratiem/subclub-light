@@ -123,8 +123,8 @@ blockquote {border-left:5px solid $tertiary;border-radius:0.5em;font-style:itali
 tr, .table-heading {border-bottom:none;}
 
 tbody {border-top: none;}
-// navigation block for each post
-.topic-map {background:$primary-very-low;border:1px solid $primary-low;border-radius:0.5em;}
+// navigation block on the first post
+.topic-map {background:none;border:1px solid $primary-low;border-radius:0.5em;}
 .topic-map section {border-top:none;}
 .topic-map .map button:hover .d-icon, .topic-map .buttons .btn:hover {color:$secondary;}
 .topic-map .buttons .btn {background:rgba(0,0,0,0.15);border-left:none;}
