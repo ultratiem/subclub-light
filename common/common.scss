@@ -83,6 +83,9 @@ nav.post-controls .double-button button.button-count:not(.my-likes) {padding-rig
 nav.post-controls .double-button button.like.d-hover .d-icon {color:$secondary !important;}
 nav.post-controls .double-button button.like.d-hover {background:$love;}
 
+// posts on latest topic page
+.topic-list .main-link {font-size:1em;}
+
 .topic-list th, nav.post-controls button {font-size:0.85em;font-weight:700;color:$primary;}
 .topic-list .topic-list-item-separator td {border-bottom:1px solid rgba(0,0,0,0.05);}
 .topic-list .topic-list-item-separator td span {color:rgba(0,0,0,0.15);font-weight:700;}
