@@ -84,7 +84,7 @@ nav.post-controls .double-button button.like.d-hover {background:$love;}
 
 .nav-interface {display:none;}
 // drop down menu
-.menu-panel {border:0;border-radius:0.5em;box-shadow: 0 10px 30px rgba(0,0,0,0.3);font-size:0.9em;}
+.menu-panel {background:$secondary;border:0;border-radius:0.5em;box-shadow: 0 10px 30px rgba(0,0,0,0.3);font-size:0.9em;}
 .menu-panel li a.widget-link:hover {border-radius:0.4em;}
 .menu-panel hr {border-top:0;height:5px;}
 div.menu-links-header a {color:$primary;}
