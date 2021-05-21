@@ -5,8 +5,8 @@
 
 .container, list-container {margin: auto 1.5em;} // add a margin to appease tablets and smaller screen sizes
 
-.anon {background-color:$primary;color:$tertiary;} //container for login page
-.body-page-button-container {display:block !important;} //login button for main viewport
+.anon {background-color:$primary;color:$tertiary;} // container for login page
+.body-page-button-container {display:block !important;} // login button for main viewport
 .login-required {margin:0 auto;}
 .login-required h2 {color:$primary;font-size:3em;padding:10px 0 500px;text-transform:uppercase;}
 
@@ -31,7 +31,7 @@ nav.post-controls button .d-icon {color:$primary}
 .unread-private-messages {background-color:$love;} //apple red
 .d-header-icons .unread-notifications {background-color:$love;}
 
-//menu icons, etc.
+// menu icons, etc.
 .d-header {box-shadow:none;border-bottom:none;height:6em;}
 .d-header-icons .d-icon {color:$secondary;}
 .d-header-icons .icon {border:0 !important;border-radius:0.5em;}
@@ -59,6 +59,7 @@ blockquote {background:$tertiary-low !important;border-left:5px solid $primary-l
 // permalink block
 .post-links-container .post-links {border:1px solid $primary-low !important;border-radius:0.5em;margin:10px 10px 10px 0 !important;padding:1em 1em 0 1em !important;}
 .post-links-container ul {margin:0 !important;}
+.post-links-container ul li a[href] {color:$tertiary !important;font-size:0.9em;} // permalink a:font
 // block at the end of a page with posts
 .topic-status-info, .topic-timer-info {border:0 !important;}
 // post menu has 2 states, collapsed and uncollapsed
@@ -98,7 +99,7 @@ nav.post-controls .double-button button.like.d-hover {background:$love;}
 // new post button
 .list-controls .btn .d-button-label {font-size:1em;font-weight:700;}
 
-//handles the category breadcrumbs
+// handles the category breadcrumbs
 .nav-pills>li>a, .badge-category-bg, .btn, .select-kit .select-kit-header {font-weight:700 !important;font-size:0.9em !important;border-radius:0.5em !important;padding:0.5em 1em !important;}
 .nav-pills>li a.active {background:$tertiary}; //sets color of category pill
 .nav-pills>li>a:hover {color:$tertiary;background:rgba(48,158,178,0.35)}; //color has to be hardcoded, pulled from tertiary
