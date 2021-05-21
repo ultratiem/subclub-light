@@ -83,8 +83,9 @@ nav.post-controls .double-button button.like.d-hover {background:$love;}
 .alert {border-radius:0.4em !important; font-size:0.9em !important;padding:10px;}
 
 .nav-interface {display:none;}
+// drop down menu
+.menu-panel {border:0;border-radius:0.5em;box-shadow: 0 10px 30px rgba(38,118,138,0.3);font-size:0.9em;}
 .menu-panel li a.widget-link:hover {border-radius:0.4em;}
-.menu-panel {border:0;border-radius:0.4em;box-shadow: 0 10px 30px rgba(38,118,138,0.2);}
 .menu-panel hr {border-top:0;height:5px;}
 div.menu-links-header a {color:$primary;}
 .user-menu .quick-access-panel li:not(.show-all) .d-icon {color:$tertiary;}
