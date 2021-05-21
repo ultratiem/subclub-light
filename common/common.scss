@@ -14,6 +14,15 @@
 .login-button .svg-icon {color:$secondary !important;}
 .btn-primary {border:1px solid $secondary;}
 
+nav.post-controls .actions .double-button button.button-count+.toggle-like {padding:0;} // hack to get horizontal center
+nav.post-controls .actions button {border:0.5px solid $primary-low;font-size:0.8em;} // adjusts reply button and their bretheren
+nav.post-controls .actions button.d-hover {background:$tertiary;} // button hover bg
+
+nav.post-controls .actions .double-button button.like.d-hover {background:$love;color:$primary;}
+nav.post-controls button {border-radius:0.4em;background:rgba(0,0,0,0.1);min-width:40px;}
+nav.post-controls button.d-hover, nav.post-controls button:hover {color:$secondary !important;}
+nav.post-controls button .d-icon {color:$primary}
+
 .unread-private-messages {background-color:$love;} //apple red
 .d-header-icons .unread-notifications {background-color:$love;}
 
@@ -58,14 +67,6 @@ blockquote {background:$tertiary-low !important;border-left:5px solid $primary-l
 div.menu-links-header .menu-links-row li a.active {border-radius:0.5em 0.5em 0 0;}
 div.menu-links-header .fa {color:$primary;}
 
-nav.post-controls .actions .double-button button.button-count+.toggle-like {padding:0;} // hack to get horizontal center
-nav.post-controls .actions button {border:0.5px solid $primary-low;font-size:0.8em;} // adjusts reply button and their bretheren
-nav.post-controls .actions button.d-hover {background:$tertiary !important;} // button hover bg
-
-nav.post-controls .actions .double-button button.like.d-hover {background:$love;color:$primary;}
-nav.post-controls button {border-radius:0.4em;background:rgba(0,0,0,0.1);min-width:40px;}
-nav.post-controls button.d-hover, nav.post-controls button:hover {color:$secondary !important;}
-nav.post-controls button .d-icon {color:$primary}
 .discourse-no-touch .btn:hover {background:$tertiary;}
 .btn-primary .d-icon {color:$secondary !important;}
 nav.post-controls .double-button button.button-count:not(.my-likes) {padding-right:10px;margin-right:5px;}
