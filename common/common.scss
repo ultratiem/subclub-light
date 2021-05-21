@@ -59,8 +59,8 @@ blockquote {background:$tertiary-low !important;border-left:5px solid $primary-l
 // permalink block
 .post-links-container .post-links {border:1px solid $primary-low !important;border-radius:0.5em;margin:10px 10px 10px 0 !important;padding:1em 1em 0 1em !important;}
 .post-links-container ul {margin:0 !important;}
-// topic lists?
-.topic-list-item {background:#333;}
+// topic lists block that houses all topics in the list
+.topic-list-item {border:1px solid $primary-low;border-radius:0.8em;padding:1em;}
 // block at the end of a page with posts
 .topic-status-info, .topic-timer-info {border:0 !important;}
 // post menu has 2 states, collapsed and uncollapsed
