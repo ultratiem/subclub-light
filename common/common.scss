@@ -25,6 +25,8 @@ nav.post-controls button .d-icon {color:$primary}
 // name of poster in post blocks, these are links
 .names span a {color:$tertiary !important;}
   .names span a:visited {color:$primary !important;}
+// user cards
+.user-card .card-content {border-radius:0.8em;}
 
 .unread-private-messages {background-color:$love;} //apple red
 .d-header-icons .unread-notifications {background-color:$love;}
