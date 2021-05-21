@@ -129,7 +129,7 @@ tbody {border-top: none;}
 // navigation block on the first post
 .topic-map section {border-top:none;}
 .topic-map {background:none;border:1px solid $primary-low;border-radius:0.5em;margin:10px !important;}
-.topic-map .map button .d-icon {color:$primary;}
+.topic-map .map button .d-icon {color:$tertiary;} // arrow on big button
 .topic-map .map button:hover .d-icon, .topic-map .buttons .btn:hover {color:$secondary;}
 // big button on topic block with arrow
 .topic-map .buttons .btn {background:$primary-low;border-left:none;color:$tertiary !important;}
