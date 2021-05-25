@@ -98,7 +98,7 @@ nav.post-controls .double-button button.button-count:not(.my-likes) {padding-rig
 .topic-list button.bulk-select {padding:5px;background:rgba(0,0,0,0.15);border-radius:0.5em;}
 // all this for a drop of love
 nav.post-controls .double-button button.like.d-hover .d-icon {color:$secondary !important;}
-nav.post-controls .double-button button.like.d-hover {background:$love;}
+nav.post-controls .double-button button.like.d-hover, .badge-notification.new-posts {background:$love !important;}
 
 // posts on latest topic page
 .topic-list .main-link {font-size:1em;}
