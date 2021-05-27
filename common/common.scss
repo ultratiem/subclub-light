@@ -5,7 +5,7 @@
 // reduce tag font size
 .badge-wrapper {font-size:var(--font-down-2);}
 .category-list .category-name {color:$primary;font-size:var(--font-down-1);}
-.categories-list .category .category-logo.aspect-image {}
+.category-list .category-text-title {display:none;}
 
 .categories-and-latest {flex-direction: column;}
 .navigation-categories .category-list {margin-bottom:0 !important;}
