@@ -35,7 +35,7 @@ input:focus {outline:none !important;}
 .select-kit.combo-box.category-drop .select-kit-row .topic-count {color:$primary;font-weight:700;}
 
 // new topic dropdown menu
-.select-kit.dropdown-select-box.is-expanded .select-kit-collection {border-radius:0.5em;padding:0.5em;}
+.select-kit.dropdown-select-box.is-expanded .select-kit-collection {border-radius:0.8em !important;padding:0.5em;}
 
 .container, list-container {margin: auto 1.5em;} // add a margin to appease tablets and smaller screen sizes
 
