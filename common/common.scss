@@ -92,7 +92,7 @@ blockquote {background:$tertiary-low !important;border-left:5px solid $primary-l
 .embedded-posts {border-radius:.5em;border:1px solid $primary-low !important;margin:10px !important;} // replies within a post, outside box
 .small-action {border-top:0 !important;} // boxes like "1 year later", etc.
 // posts
-.topic-body {border:1px solid $primary-low !important;border-radius:0.8em;margin:0.5em auto;}
+.topic-body {background:#fff;border:1px solid $primary-low !important;border-radius:0.8em;margin:0.5em auto;}
 .embedded-posts.bottom .row .topic-body {margin:auto 35px 35px;} // individual replies within the larger box inside another box
 .embedded-posts .topic-avatar {padding-bottom:10px;padding-left:45px !important;} // post avatars
 // avatar block beside posts
