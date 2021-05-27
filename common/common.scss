@@ -10,6 +10,7 @@
 //.categories-and-latest div.column.categories {max-width:40%}
 
 .categories-and-latest {flex-direction: column;}
+.category-list .category-text-title {display:none;} //remove category titles
 
 .category-list {
 	thead,
