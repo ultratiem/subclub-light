@@ -37,9 +37,6 @@ input:focus {outline:none !important;}
 // new topic dropdown menu
 .select-kit.dropdown-select-box.is-expanded .select-kit-collection {border-radius:0.5em;padding:0.5em;}
 
-//easy footer component
-.custom-footer .list {text-align:right;}
-
 .container, list-container {margin: auto 1.5em;} // add a margin to appease tablets and smaller screen sizes
 
 .anon {background-color:$primary;color:$tertiary;} // container for login page
@@ -226,6 +223,7 @@ tbody {border-top: none;}
 .share-and-invite {display:none;} // kills share button
 
 // custom footer block for easy footer plugin
+.custom-footer .list {text-align:right;}
 .custom-footer {background:$header-background !important;border-top:0 !important;color:$primary !important;}
 .custom-footer .flexbox {color:$secondary !important;}
 .custom-footer .third-box {border-top:0 !important;}
