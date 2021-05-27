@@ -6,11 +6,10 @@
 .badge-wrapper {font-size:var(--font-down-2);}
 .category-list .category-name {color:$primary;font-size:var(--font-down-1);}
 .categories-list .category .category-logo.aspect-image {}
-.category-list .topics {display:none;}
+.category-list .topics {display:flex;}
 //.categories-and-latest div.column.categories {max-width:40%}
 
 .categories-and-latest {flex-direction: column;}
-.category-list .category-text-title {} //remove category titles
 .navigation-categories .category-list {margin-bottom:0 !important;}
 
 .category-list {
