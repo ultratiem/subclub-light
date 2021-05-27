@@ -7,6 +7,7 @@ body {background-color:#f1f2f4;}
 // user page details: stripping the inherent bgs to accommodate body bg
 .user-main .about .details {background:transparent !important;border-bottom:0 !important;}
 .user-content {background:transparent !important;}
+.lightbox-wrapper {border-radius:0.5em;} //the content preview in posts
 
 // reduce tag font size
 .badge-wrapper {font-size:var(--font-down-2);}
