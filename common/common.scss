@@ -199,7 +199,7 @@ tbody {border-top: none;}
 .alert.alert-info {margin:8px;background:rgba(0,0,0,0.05);}
 
 // divs inside the latest posts block on the homepage (border has to be hardcoded to support dark mode)
-.latest-topic-list-item {border:0.5px solid rgba(0,0,0,0.2) !important;border-radius:0.8em;box-shadow:5px 5px 10px rgba(0,0,0,0.075);margin-bottom:1em;}
+.latest-topic-list-item {background:#fff;border:0.5px solid rgba(0,0,0,0.2) !important;border-radius:0.8em;box-shadow:5px 5px 10px rgba(0,0,0,0.075);margin-bottom:1em;}
 .latest-topic-list-item.visited a.title:not(.badge-notification) {color:$primary;}
 .latest-topic-list-item .main-link a.title {font-size:0.85em;}
 .latest-topic-list-item .topic-last-activity a, .badge-posts[href] {color:$primary;font-weight:700;}
