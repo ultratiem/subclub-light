@@ -234,7 +234,10 @@ tbody {border-top: none;}
 .share-and-invite {display:none;} // kills share button
 
 // custom footer block for easy footer plugin
+.wrap {max-wdith:800px !important;}
 .custom-footer .list {text-align:right;}
+.custom-footer .first-box {width:100% !important;}
+.custom-footer .second-box {display:none;}
 .custom-footer {background:transparent !important;}
 .custom-footer .flexbox {color:$primary !important;}
 .custom-footer .third-box {border-top:0 !important;}
