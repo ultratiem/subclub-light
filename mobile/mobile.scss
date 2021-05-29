@@ -1,9 +1,55 @@
 @import "common/foundation/variables";
 
+body {background-color:#f1f2f4;}
+
+.d-header #site-logo {height:3.5em !important;} // site logo
+
+// user page details: stripping the inherent bgs to accommodate body bg
+.user-main .about .details {background:transparent !important;border-bottom:0 !important;}
+.user-content {background:transparent !important;}
+.lightbox-wrapper .lightbox {border-radius:0.5em;border:1px solid rgba(0,0,0,0.05);box-shadow:2px 2px 6px rgba(0,0,0,0.06)} //the content preview in posts
+.timeline-container .topic-timeline .timeline-scrollarea {border-color:$primary-low !important;} // post timeline scroll well
+.container.posts .topic-navigation {margin-top:0.5em;}
+nav.post-controls .show-replies {font-size:0.85em !important;padding:7px !important;} // multi reply button in post body
+.deleted .topic-body {border:1px solid rgba(255,59,48,0.15) !important;}
+
+// reduce tag font size
+.badge-wrapper {font-size:var(--font-down-2);}
+.category-list .category-name {color:$primary;font-size:var(--font-down-1);}
+.category-list .category-text-title {display:none;}
+
+.categories-and-latest {flex-direction: column;}
+.navigation-categories .category-list {margin-bottom:0 !important;}
+
+.category-list {
+	thead, .topics, .subcategories, .category-description {display: none;}
+	tbody {text-align: center;tr {display: inline-block;width:50px;height:80px;margin:1.25em;border-left-color:transparent;}
+	.category {padding:0;border-width:0;display:block;width:100%;height:100%;position:relative;
+		> div {height:100%;background:#f2f2f2;}
+			.category-logo {float:unset;margin:0 auto;}
+			.category-name {margin-top:1.25em;}
+			h3 {position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);a[href] {display:flex;flex-direction:column-reverse;width:50px;}
+		}
+		&:after {position:absolute;width:100%;height:100%;top:0;left:0;content: "";z-index: 1;box-sizing:border-box;pointer-events: none;border-left:0;opacity:0.35;border-color:inherit;}
+		}
+	}
+}
+
+input {background:$primary-low !important;border:hidden !important;border-radius:0.5em;}
+input:focus {outline:none !important;}
+.select-kit .select-kit-filter .filter-input {border-radius:0.5em;padding:0.5em;} // search field in dropdown menu of categories button
+.select-kit.is-expanded .select-kit-body {border-radius:0.5em;box-shadow:0 5px 10px rgba(0,0,0,0.2);} // dropdown list box
+.select-kit.single-select .select-kit-filter.is-expanded {border:0 !important;} // the search box
+.select-kit .select-kit-row.is-highlighted {background:$primary-low !important;border-radius:0.5em;margin:auto 5px;}
+.select-kit.combo-box.category-drop .select-kit-row .topic-count {color:$primary;font-weight:700;}
+
+// new topic dropdown menu
+.select-kit.dropdown-select-box.is-expanded .select-kit-collection {border-radius:0.8em !important;padding:0.5em;}
+
 .container, list-container {margin: auto 1.5em;} // add a margin to appease tablets and smaller screen sizes
 
-.anon {background-color:$primary;color:$tertiary;} //container for login page
-.body-page-button-container {display:block !important;} //login button for main viewport
+.anon {background-color:$primary;color:$tertiary;} // container for login page
+.body-page-button-container {display:block !important;} // login button for main viewport
 .login-required {margin:0 auto;}
 .login-required h2 {color:$primary;font-size:3em;padding:10px 0 500px;text-transform:uppercase;}
 
@@ -11,53 +57,90 @@
 .login-button .svg-icon {color:$secondary !important;}
 .btn-primary {border:1px solid $secondary;}
 
-.unread-private-messages {background-color:rgba(255,59,48,1);} //apple red
+nav.post-controls .actions .double-button button.button-count+.toggle-like {padding:0;} // hack to get horizontal center
+nav.post-controls .actions button {background:$primary-low;border:0;font-size:0.8em;} // adjusts reply button and their bretheren
+nav.post-controls .actions button.d-hover {background:$tertiary;} // button hover bg
+
+nav.post-controls .actions .double-button button.like.d-hover {background:$love;color:$primary;}
+nav.post-controls button {border-radius:0.5em;background:rgba(0,0,0,0.1);min-width:40px;}
+nav.post-controls button.d-hover, nav.post-controls button:hover {color:$secondary !important;}
+nav.post-controls button .d-icon {color:$primary}
+// name of poster in post blocks, these are links
+.names span a {color:$tertiary !important;}
+  .names span a:visited {color:$primary !important;}
+// user cards block
+.user-card {border-radius:0.8em;}
+
+.unread-private-messages {background-color:$love;} //apple red
+.d-header-icons .unread-notifications {background-color:$love;}
+
+// menu icons, etc.
+.d-header {box-shadow:none;border-bottom:none;height:6em;}
+.d-header-icons .d-icon {color:$secondary;}
+.d-header-icons .icon {border:0 !important;border-radius:0.5em;}
+.d-header-icons .icon:hover .d-icon {border-radius:0.5em;}
+.d-header-icons .icon:hover {background:$secondary !important;}
+
+.d-header-icons .header-dropdown-toggle {margin-right:15px;}
+
+// button text and iconography
+.discourse-no-touch .btn-flat:hover .d-icon, .btn-flat .d-icon {color:$secondary;font-weight:700;}
+.discourse-no-touch .btn:hover .d-icon {color:$secondary;}
+// menu text and iconography
+.discourse-no-touch .d-header-icons .icon:hover .d-icon {color:$tertiary !important;}
 
 // quote block author
 aside.quote .title {background:$primary-low !important;border-left:0 !important;border-radius:0.5em;margin-bottom:0.5em;padding:12px !important;}
 // blockquotes
 blockquote {background:$tertiary-low !important;border-left:5px solid $primary-low;}
+.embedded-posts {border-radius:.5em;border:1px solid $primary-low !important;margin:10px !important;} // replies within a post, outside box
+.small-action {border-top:0 !important;} // boxes like "1 year later", etc.
+// posts
+.topic-body {background:#fff;border:1px solid $primary-low !important;border-radius:0.8em;margin:0.5em auto;padding:18px 12px 12px !important;}
+.embedded-posts.bottom .row .topic-body {margin:auto 35px 35px;} // individual replies within the larger box inside another box
+.embedded-posts .topic-avatar {padding-bottom:10px;padding-left:45px !important;} // post avatars
+// avatar block beside posts
+.topic-avatar {border-top:0 !important;padding-right:0.5em;}
+// titles on posts
+.cooked h3 {font-size:$font-up-2 !important;}
+// permalink block
+.post-links-container .post-links {border:1px solid $primary-low !important;border-radius:0.5em;margin:10px 10px 10px 0 !important;padding:1em 1em 0 1em !important;}
+.post-links-container ul {margin:0 !important;}
+.post-links-container ul li a[href] {color:$tertiary !important;font-weight:700;font-size:0.8em;} // permalink a:font
+.post-links-container ul li a[href]:hover {color:$highlight !important;}
+// block at the end of a page with posts
+.topic-status-info, .topic-timer-info {border:0 !important;}
+// post menu has 2 states, collapsed and uncollapsed
+.post-menu-area {margin:10px !important;}
 
 .topic-list-item.visited a.title:not(.badge-notification) {color:$primary;}
 .select-kit.combo-box .select-kit-header {border:1px solid rgba(48,158,178,0.4);max-height:28px;}
 
 .extra-info-wrapper .header-title {max-width:80%;}
 
-div.menu-links-header .menu-links-row li a.active {border-radius:0.4em 0.4em 0 0;}
+div.menu-links-header .menu-links-row li a.active {border-radius:0.5em 0.5em 0 0;}
 div.menu-links-header .fa {color:$primary;}
 
-.discourse-no-touch .btn-flat:hover .d-icon, .btn-flat .d-icon {color:$secondary;font-weight:700;}
-.discourse-no-touch .btn:hover .d-icon {color:$secondary;}
-
-nav.post-controls .actions .double-button button.button-count+.toggle-like {padding:0;} //hack to get horizontal center
-nav.post-controls .actions button {border:0.5px solid rgba(0,0,0,0.15);font-size:0.8em;} //adjusts reply button and their bretheren
-
-nav.post-controls .actions .double-button button.like.d-hover {background:$love;color:$primary;}
-nav.post-controls button {border-radius:0.4em;background:rgba(0,0,0,0.1);min-width:40px;}
-nav.post-controls button.d-hover, nav.post-controls button:hover {color:$secondary !important;}
-nav.post-controls button .d-icon {color:$primary}
 .discourse-no-touch .btn:hover {background:$tertiary;}
 .btn-primary .d-icon {color:$secondary !important;}
 nav.post-controls .double-button button.button-count:not(.my-likes) {padding-right:10px;margin-right:5px;}
-.discourse-no-touch .sortable:hover {border-radius:0.4em;background:rgba(48,158,178,0.2);color:$tertiary;font-weight:700;font-size:0.85em;}
+.discourse-no-touch .sortable:hover {border-radius:0.5em;background:rgba(48,158,178,0.2);color:$tertiary;font-weight:700;font-size:0.85em;}
 
 .topic-list-bottom {font-size:0.85em;}
-.topic-list button.bulk-select {padding:5px;background:rgba(0,0,0,0.15);border-radius:0.4em;}
+.topic-list button.bulk-select {padding:5px;background:rgba(0,0,0,0.15);border-radius:0.5em;}
 // all this for a drop of love
 nav.post-controls .double-button button.like.d-hover .d-icon {color:$secondary !important;}
-nav.post-controls .double-button button.like.d-hover {background:$love;}
+nav.post-controls .double-button button.like.d-hover, .badge-notification.new-posts {background:$love !important;border-radius:35px;padding:8px 11px;}
+
+// last visit span on latest topics page
+.topic-list .topic-list-item-separator td span {border-radius:.35em;border:1px solid rgba(0,0,0,0.1);padding:2px 8px !important;}
+// posts on latest topic page
+.topic-list .main-link {font-size:1em;}
 
 .topic-list th, nav.post-controls button {font-size:0.85em;font-weight:700;color:$primary;}
 .topic-list .topic-list-item-separator td {border-bottom:1px solid rgba(0,0,0,0.05);}
 .topic-list .topic-list-item-separator td span {color:rgba(0,0,0,0.15);font-weight:700;}
 
-.d-header {box-shadow:none;border-bottom:none;height:6em;}
-.d-header-icons .d-icon {color:$secondary;}
-.d-header-icons .icon {border:0 !important;border-radius:0.4em;}
-.d-header-icons .icon:hover .d-icon {color:$tertiary;}
-.d-header-icons .icon:hover {color:$primary;background:$secondary;border-radius:2em;}
-.d-header-icons .header-dropdown-toggle {margin-right:15px;}
-.d-header-icons .unread-notifications {background-color:rgba(255,59,48,1);}
 .current-user {margin-right:0 !important;}
 
 .badge-wrapper .badge-category .category-name {padding:1px 4px;}
@@ -66,15 +149,16 @@ nav.post-controls .double-button button.like.d-hover {background:$love;}
 // new post button
 .list-controls .btn .d-button-label {font-size:1em;font-weight:700;}
 
-//handles the category breadcrumbs
-.nav-pills>li>a, .badge-category-bg, .btn, .select-kit .select-kit-header {font-weight:700 !important;font-size:0.9em !important;border-radius:0.4em !important;padding:0.5em 1em !important;}
-.nav-pills>li a.active {background:$tertiary}; //sets color of category pill
-.nav-pills>li>a:hover {color:$tertiary;background:rgba(48,158,178,0.35)}; //color has to be hardcoded, pulled from tertiary
-.alert {border-radius:0.4em !important; font-size:0.9em !important;padding:10px;}
+// handles the category breadcrumbs
+.nav-pills>li>a, .badge-category-bg, .btn, .select-kit .select-kit-header {font-weight:700 !important;font-size:0.9em !important;border-radius:0.5em !important;padding:0.5em 1em !important;}
+.nav-pills>li a.active {background:$tertiary}; // sets color of category pill
+.nav-pills>li>a:hover {color:$tertiary;background:rgba(48,158,178,0.35)}; // color has to be hardcoded, pulled from tertiary
+.alert {border-radius:0.5em !important; font-size:0.9em !important;padding:10px;}
 
 .nav-interface {display:none;}
-.menu-panel li a.widget-link:hover {border-radius:0.4em;}
-.menu-panel {border:0;border-radius:0.4em;box-shadow: 0 10px 30px rgba(38,118,138,0.2);}
+// drop down menu
+.menu-panel {background:$secondary;border:0;border-radius:0.5em;box-shadow:0 10px 30px rgba(0,0,0,0.3);font-size:0.9em;}
+.menu-panel li a.widget-link:hover {border-radius:0.5em;}
 .menu-panel hr {border-top:0;height:5px;}
 div.menu-links-header a {color:$primary;}
 .user-menu .quick-access-panel li:not(.show-all) .d-icon {color:$tertiary;}
@@ -84,7 +168,7 @@ div.menu-links-header a {color:$primary;}
 .category-logo.aspect-image {margin:0.33em 1em 1em 0;}
 .category-heading .category-logo.aspect-image {display:none;}
 
-aside.onebox {border:none;border-radius:0.4em;background:rgba(48,158,178,0.1);}
+aside.onebox {border:none;border-radius:0.5em;background:rgba(48,158,178,0.1);}
 aside.onebox header a[href] {color:$primary;font-weight:700;}
 
 blockquote {border-left:5px solid $tertiary;border-radius:0.5em;font-style:italic;}
@@ -103,12 +187,14 @@ blockquote {border-left:5px solid $tertiary;border-radius:0.5em;font-style:itali
 tr, .table-heading {border-bottom:none;}
 
 tbody {border-top: none;}
-.topic-map {background:none;border:1px solid rgba(0,0,0,0.15);border-radius:0.4em;}
+// navigation block on the first post
 .topic-map section {border-top:none;}
-.topic-map .map button:hover .d-icon, .topic-map .buttons .btn:hover {color:$secondary;}
-.topic-map .buttons .btn {background:rgba(0,0,0,0.15);border-left:none;}
+.topic-map {background:none;border:1px solid $primary-low;border-radius:0.5em;margin:10px !important;}
+.topic-map .map button .d-icon {color:$tertiary;} // arrow on big button
+.topic-map .map button:hover .d-icon, .topic-map .buttons .btn:hover {background:$tertiary;color:$secondary;}
+// big button on topic block with arrow
+.topic-map .buttons .btn {background:$primary-low;border-left:none;color:$tertiary !important;}
 .deleted .topic-body {background:rgba(241,84,91,0.1);}
-.topic-map .map button .d-icon {color:$primary;}
 .login-required h2, .body-page {text-align:center;}
 .body-page {margin:auto;}
 .d-header #site-text-logo {font-size:0.9em;color:$tertiary;}
@@ -120,8 +206,8 @@ tbody {border-top: none;}
 .banner-box {margin-left:calc(-51vw + 50%) !important;}
 .alert.alert-info {margin:8px;background:rgba(0,0,0,0.05);}
 
-// divs inside the latest posts block on the homepage
-.latest-topic-list-item {border:0.5px solid rgba(0,0,0,0.2) !important;border-radius:12px;box-shadow:5px 5px 10px rgba(0,0,0,0.075);margin-bottom:1em;}
+// divs inside the latest posts block on the homepage (border has to be hardcoded to support dark mode)
+.latest-topic-list-item {background:#fff;border:0.5px solid rgba(0,0,0,0.2) !important;border-radius:0.8em;box-shadow:5px 5px 10px rgba(0,0,0,0.075);margin-bottom:1em;}
 .latest-topic-list-item.visited a.title:not(.badge-notification) {color:$primary;}
 .latest-topic-list-item .main-link a.title {font-size:0.85em;}
 .latest-topic-list-item .topic-last-activity a, .badge-posts[href] {color:$primary;font-weight:700;}
@@ -131,32 +217,33 @@ tbody {border-top: none;}
 .extra-info-wrapper .header-title {width:auto;overflow:hidden;}
 .badge-wrapper .badge-category .category-name {font-weight:700;}
 
-.post-notice.old, .post-notice {background-color:rgba(0,0,0,0.05);border-radius:0.4em;border:0;justify-content:center;margin-bottom:25px;}
+.post-notice.old, .post-notice {border:0;font-size:0.9em;justify-content:center;margin:10px 0 10px 30px;}
 
 .user-menu .quick-access-panel .d-icon {color:$tertiary;}
-.drop-down-mode .d-header-icons .active .icon {border-radius:0.4em 0.4em 0 0;}
+.drop-down-mode .d-header-icons .active .icon {border-radius:0.5em 0.5em 0 0;}
 .footer-block {width:100%;display:none;}
 .footer-text {font-size:0.8em;color:$tertiary;text-align:center;}
 .select-kit .select-kit-header {padding:0 1em !important;}
 .title-wrapper .topic-statuses .d-icon {color:$primary;}
-.lightbox-wrapper, .lightbox-wrapper *, nav.post-controls .double-button button.like.d-hover, .search-menu input[type="text"] {border-radius:0.4em;}
-.user-menu .quick-access-panel li {border-radius:0.4em;margin:0.5em auto;}
+.search-menu input[type="text"] {border-radius:0.5em;}
+.user-menu .quick-access-panel li {border-radius:0.5em;margin:0.5em auto;}
 
 // timeline handle found on post pages
 .timeline-container .topic-timeline .timeline-handle {background:$tertiary}
 
-.share-and-invite {display:none;} //kills share button
+.share-and-invite {display:none;} // kills share button
 
-//custom footer block for easy footer plugin
-.custom-footer {background:$secondary !important;border-top:0.5px solid rgba(0,0,0,0.2);color:$primary !important;}
-.custom-footer .flexbox {color:$primary !important;}
+// custom footer block for easy footer plugin
+.wrap {max-wdith:800px !important;}
+.custom-footer .list {text-align:right;}
+.custom-footer .first-box {margin:0 auto;max-width:100% !important;text-align:center;}
+.custom-footer .second-box {display:none;}
+.custom-footer {background:transparent !important;}
+.custom-footer .flexbox {color:$primary !important;padding:0 0 2em 0 !important;}
 .custom-footer .third-box {border-top:0 !important;}
 .custom-footer .third-box .social .social-link .d-icon {color:$tertiary !important;}
+.custom-footer .first-box .heading {font-size:1em !important;}
+.custom-footer .first-box .blurb {font-size:0.85em;}
 
-// reduce tag font size
-.badge-wrapper {font-size:var(--font-down-2);}
-.category-list .category-name {color:$primary;font-size:var(--font-down-1);}
-.categories-list .category .category-logo.aspect-image {}
-
-.category-list .topics {display:none;}
-.categories-and-latest div.column.categories {max-width:40%}
+// text beside tracking button at the end of a post page
+#topic-footer-buttons .topic-notifications-button .reason .text {font-size:0.8em;}
